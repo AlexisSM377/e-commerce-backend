@@ -593,6 +593,7 @@ export interface ApiBrandBrand extends Struct.CollectionTypeSchema {
   attributes: {
     nameBrand: Schema.Attribute.String;
     slug: Schema.Attribute.UID<'nameBrand'>;
+    logoMain: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;
