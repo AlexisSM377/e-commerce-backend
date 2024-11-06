@@ -18,6 +18,16 @@
     "slug": {
       "type": "uid",
       "targetField": "nameBrand"
+    },
+    "logoMain": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
