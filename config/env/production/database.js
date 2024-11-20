@@ -16,7 +16,7 @@ module.exports = ({ env }) => ({
       user,
       password,
       ssl: {
-        ca: env("DATABASE_CA", undefined),
+        rejectUnauthorized: env.bool("DATABASE_SSL_SELF", false),
       },
     },
     debug: false,
