@@ -1,4 +1,4 @@
-export default ({ env }) => ({
+module.exports = ({ env }) => ({
   proxy: true,
   url: env("APP_URL"),
   app: {
