@@ -745,7 +745,7 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
     price: Schema.Attribute.Decimal;
     stock: Schema.Attribute.Integer;
     color: Schema.Attribute.Enumeration<
-      ['Rojo', 'Amarillo', 'Verde', 'Azul', 'Negro', 'Blanco', 'Cafe']
+      ['Rojo', 'Amarillo', 'Verde', 'Azul', 'Negro', 'Blanco', 'Cafe', 'Rosa']
     >;
     isFeatured: Schema.Attribute.Boolean;
     gender: Schema.Attribute.Enumeration<['Hombre', 'Mujer', 'Unisex']>;
